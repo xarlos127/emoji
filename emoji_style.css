@@ -1,0 +1,92 @@
+.time{
+  background-color: black;
+  width: 10000px;px;
+  height:10000px;
+}
+
+
+.head {
+    /*Positions the head relative to the body*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    /*Sets the color of the container and rounds the corners*/
+    background-color: #F2CF66;
+    border-radius: 50%;
+  
+    /*Sets the size of the container*/
+    width: 250px;
+    height: 260px;
+  }
+  
+  /* write your own CSS rules for the other parts, below! */
+
+.eye{
+  position:fixed;
+  left: 13%;
+  top:  15%;
+  transform: translate(30%,30%);
+ 
+  background-color:white;
+  border-radius: 60%;
+
+  width: 60px;
+  height: 60px;
+
+}
+
+.pupil{
+  position:fixed;
+  left: 13%;
+  top:  15%;
+  transform: translate(30%,30%);
+ 
+  background-color:black;
+  border-radius: 60%;
+
+  width: 30px;
+  height: 30px;
+
+}
+
+.eye2{
+    position:fixed;
+    left: 50%;
+    top:  15%;
+    transform: translate(30%,30%);
+   
+    background-color:white;
+    border-radius: 60%;
+
+    width: 60px;
+    height: 60px;
+}
+
+
+  .mouth{
+    position:fixed;
+    left: 25%;
+    top: 65%;
+    transform: translate(40,50%); 
+    background-color: black;
+    border-radius: 50px;
+    width: 130px;
+    height: 45px;
+
+  }
+  .teeth{
+
+  }
+  .tongue{
+    position:fixed;
+    left: 32%;
+    top: 66%;
+    transform: translate(40,50%); 
+    background-color: hotpink;
+    border-radius: 50px;
+    width: 100px;
+    height: 120px;
+
+  }
